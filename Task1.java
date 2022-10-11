@@ -13,13 +13,5 @@ class Task3{
                 ++i;
             }
         }
-        for (int i = 0; i < n; ++i) {
-            String output = "";
-            for (int j = 0; j < m; ++j) {
-                Integer value = a[i][j];
-                output += value + "\t";
-            }
-            System.out.println(output);
-        }
     }
 }
