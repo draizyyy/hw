@@ -35,7 +35,7 @@ public class Trinity<T extends Comparable<T>> {
         return third;
     }
 
-    protected boolean compare(T t1, T t2) {
+    private boolean compare(T t1, T t2) {
         return t1.compareTo(t2) < 0;
     }
 
